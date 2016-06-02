@@ -1,5 +1,4 @@
-# Exercise 7
-
+# Rakin Uddin 
 
 def edit_distance(s1, s2):
     '''(str, str) -> int
@@ -42,10 +41,10 @@ def subsequence(s1, s2):
     Returns True iff s1 is a subsequence of s2. s1 is a subsequence of s2 if s2
     can be equal to s1 by having 0 or more of its chars removed
 
-    >>>subsequence(’dog’,’XYZdABCo123g!!!’)
+    >>>subsequence(â€™dogâ€™,â€™XYZdABCo123g!!!â€™)
     True
 
-    >>>subsequence(’doge’,’XYZdABCo123g!!!’)
+    >>>subsequence(â€™dogeâ€™,â€™XYZdABCo123g!!!â€™)
     False
 
     REQ: len(s2) >= len(s1)
